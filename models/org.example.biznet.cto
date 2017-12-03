@@ -1,0 +1,54 @@
+namespace org.acme.biznet
+asset Commodity identified by tradingSymbol {
+    o String tradingSymbol
+    o String description
+    o String mainExchange
+    o Double quantity
+    --> Trader owner
+}
+
+participant Trader identified by tradeId {
+    o String tradeId
+    o String firstName
+    o String lastName
+}
+
+transaction Trade {
+    --> Commodity commodity
+    --> Trader newOwner
+}
+
+asset Internacao identified by ID {
+    o String ID 
+    o String SEXO
+    o String NASC
+    o String IDADE
+    o String MORTE
+    o String NACIONAL
+    o String NUM_FILHOS
+    o String INSTRU
+    o String RACA_COR
+    o String CEP
+    o String MUNIC_RES
+    o String DT_INTER
+    o String DT_SAIDA
+    o String MUNIC_MOV
+    o String UF_ZI
+    o String UTI_MES_TO
+    o String MARCA_UTI
+    o String QT_DIARIAS
+    o String PROC
+    o String PROC_SOLIC
+    o String PROC_REA
+    o String VAL_SH
+    o String VAL_SP
+    o String VAL_UTI
+    o String DIAG_PRINC
+    o String DIAS_PERM
+}
+
+asset Code identified by ID {
+    o String ID
+    o String CODE
+    o String DESCRIPTION
+}

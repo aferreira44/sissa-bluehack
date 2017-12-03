@@ -1,0 +1,28 @@
+[
+  {
+    "UF_ZI": "410000",
+    "CEP": "83410100",
+    "MUNIC_RES": "410580",
+    "NASC": "19800917",
+    "SEXO": "3",
+    "UTI_MES_TO": 0,
+    "MARCA_UTI": "00",
+    "QT_DIARIAS": 1,
+    "PROC_SOLIC": "0409070050",
+    "PROC_REA": "0409070050",
+    "VAL_SH": 248.43,
+    "VAL_SP": 158.46,
+    "VAL_UTI": 0,
+    "DT_INTER": "20071211",
+    "DT_SAIDA": "20071212",
+    "DIAG_PRINC": "N818",
+    "MUNIC_MOV": "410580",
+    "IDADE": 27,
+    "DIAS_PERM": 1,
+    "MORTE": 0,
+    "NACIONAL": "010",
+    "NUM_FILHOS": 0,
+    "INSTRU": "0",
+    "RACA_COR": "99"
+  }
+]
